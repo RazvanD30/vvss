@@ -29,7 +29,7 @@ public class StudentRepoTest {
 
     @Test
     public void testCase4(){
-        assertValid(new Student("1","Name",933, null, "Professor"),false);
+        assertValid(new Student("1","Name",933, "", "Professor"),false);
     }
 
 //    @Test
