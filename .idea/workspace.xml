@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e243861-06f4-45ef-8253-f28e0b602a37" name="Default" comment="* changed to &quot;&quot; from null">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/StudentRepo.java" afterDir="false" />
+    <list default="true" id="7e243861-06f4-45ef-8253-f28e0b602a37" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/target/classes/Repository/StudentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository/StudentRepo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="StudentRepo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/StudentRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="55" selection-start-line="55" selection-end-line="92" selection-end-column="49" />
+            <state relative-caret-position="477">
+              <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="60" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -387,7 +386,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555479973878</updated>
-      <workItem from="1555479977126" duration="1747000" />
+      <workItem from="1555479977126" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="* added tests for student repo">
       <created>1555480609673</created>
@@ -403,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555481525436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="* removed useless code">
+      <created>1555481813832</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555481813832</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -419,22 +425,24 @@
     <history-entry file="StudentRepoTest - 2019.04.17 at 09h 14m 36s.xml">
       <configuration name="StudentRepoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentRepoTest - 2019.04.17 at 09h 16m 11s.xml">
+      <configuration name="StudentRepoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1747000" />
+    <option name="totallyTimeSpent" value="2607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32943678" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
@@ -462,7 +470,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* added tests for student repo" />
     <MESSAGE value="* changed to &quot;&quot; from null" />
-    <option name="LAST_COMMIT_MESSAGE" value="* changed to &quot;&quot; from null" />
+    <MESSAGE value="* removed useless code" />
+    <option name="LAST_COMMIT_MESSAGE" value="* removed useless code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Repository/TemeRepoTest.java">
@@ -536,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Repository/StudentRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="55" selection-start-line="55" selection-end-line="92" selection-end-column="49" />
+        <state relative-caret-position="477">
+          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="60" selection-end-column="40" />
         </state>
       </provider>
     </entry>
