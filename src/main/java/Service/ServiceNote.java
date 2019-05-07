@@ -7,6 +7,7 @@ import Repository.NoteRepo;
 public class ServiceNote {
     private NoteRepo rep;
     public ServiceNote(NoteRepo rep){this.rep=rep;}
+
     /**
      * Adauga Nota
      * Returneaza Nota adaugata*/

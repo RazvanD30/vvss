@@ -4,7 +4,7 @@ import Domain.Student;
 import Repository.StudentRepo;
 
 public class ServiceStudent {
-    private StudentRepo rep;
+    public StudentRepo rep;
     public ServiceStudent(StudentRepo rep){this.rep=rep;}
     /**
      * Adauga student

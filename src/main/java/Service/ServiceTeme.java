@@ -4,7 +4,8 @@ import Domain.Teme;
 import Repository.TemeRepo;
 
 public class ServiceTeme {
-    private TemeRepo rep;
+    public TemeRepo rep;
+
     public ServiceTeme(TemeRepo rep){this.rep=rep;}
 
     /***
