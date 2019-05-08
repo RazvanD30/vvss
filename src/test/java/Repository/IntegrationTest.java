@@ -19,6 +19,15 @@ public class IntegrationTest {
     private TemeRepo temeRepo = new TemeRepo(new TemeValidator(),"");
     private NoteRepo noteRepo = new NoteRepo(new NotaValidator());
 
+
+    @Test
+    public void incrementalIntegration()  {
+        addStudent();
+        addTema();
+        addNota();
+    }
+
+
     @Test
     public void addStudent(){
         studentRepo = new StudentRepo(new StudentValidator(),"");
